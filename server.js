@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
-
+require('newrelic');
 require('dotenv').config({silent: true});
 
 var server = require('./app');
