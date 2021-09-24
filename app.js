@@ -15,7 +15,7 @@
  */
 
 'use strict';
-
+require('newrelic');
 var express = require('express'); // app server
 var bodyParser = require('body-parser'); // parser for post requests
 var cors = require('cors');
