@@ -1,3 +1,4 @@
+require('newrelic');
 restconsumer = require("./rest-client");
 
 restconsumer.reqJSON((err, res) => {
