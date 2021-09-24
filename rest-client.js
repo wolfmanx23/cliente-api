@@ -1,3 +1,4 @@
+require('newrelic');
 var request = require("request");
 
 module.exports = {
