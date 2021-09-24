@@ -3,4 +3,4 @@ applications:
 - name : calculocredito-thinksummit
   instances : 1
   memory : 64M
-  buildpack: sdk-for-nodejs
+  buildpacks: https://github.com/cloudfoundry/nodejs-buildpack
